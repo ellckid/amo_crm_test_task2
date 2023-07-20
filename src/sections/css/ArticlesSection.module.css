@@ -1,0 +1,109 @@
+.articles_section {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 130px auto;
+    width: 1320px;
+    height: 962px;
+}
+
+.articles_info_container {
+    display: flex;
+    flex-direction: row;
+    gap: 493px;
+    width: 100%;
+    height: 196px;
+    align-items: end;
+}
+
+.info_heading {
+    display: flex;
+    flex-direction: column;
+    width: 652px;
+    height: 100%;
+}
+
+.info_h1 {
+    width: 541px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74px;
+    text-transform: capitalize;
+
+    margin: 0;
+}
+
+.info_h1:nth-child(2) {
+    margin-top: 12.39px;
+}
+
+.info_btn {
+    cursor: pointer;
+
+    width: 175px;
+    height: 70px;
+    background: #57B8FF;
+    border: none;
+    appearance: none;
+
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 164.706% */
+    text-transform: capitalize;
+}
+
+.articles_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 702px;
+}
+
+.article_big_card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 648px;
+}
+
+.big_card_img {
+    width: 648px;
+    height: 510px;
+}
+
+.big_card_date {
+    margin-top: 54px;
+
+    width: 130px;
+    color: #57B8FF;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.big_card_text {
+    margin-top: 28px;
+    width: 607px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    text-transform: capitalize;
+}
+
+.small_cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

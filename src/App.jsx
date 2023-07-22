@@ -9,8 +9,8 @@ function App() {
         <>
             <div className={classes.app_container}>
                 <MainSection></MainSection>
-                <CustomizeSection></CustomizeSection>
-                <ArticlesSection></ArticlesSection>
+                {/* <CustomizeSection></CustomizeSection> */}
+                {/* <ArticlesSection></ArticlesSection> */}
                 <Footer></Footer>
             </div>
         </>

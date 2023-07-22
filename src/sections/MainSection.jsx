@@ -20,12 +20,10 @@ function MainSection() {
                     <a href='' className={classes.content_inactive_button}>View our team</a>
                 </div>
             </div>
-
-
             <div className={classes.section_right_container}>
-                <img className={classes.section_right_img} src='/assets/main_right.png' alt='soldier image'></img>
+                <div className={classes.section_right_img} ></div>
             </div>
-        </section>
+        </section >
     );
 }
 

@@ -1,106 +1,296 @@
+@media (min-width:1440px) {
+    .articles_section {
+        gap: 64px;
+        margin: 130px auto;
+        width: 1320px;
+        height: 962px;
+    }
+
+    .articles_info_container {
+        flex-direction: row;
+        gap: 493px;
+        height: 196px;
+        align-items: end;
+    }
+
+    .info_heading {
+        width: 652px;
+        height: 100%;
+    }
+
+    .info_h1 {
+        width: 541px;
+        font-size: 64px;
+        line-height: 74px;
+    }
+
+    .info_h1:nth-child(2) {
+        margin-top: 12.39px;
+    }
+
+    .info_btn {
+        width: 175px;
+        height: 70px;
+
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .articles_container {
+        flex-direction: row;
+        height: 702px;
+    }
+
+    .article_big_card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 648px;
+    }
+
+    .big_card_img {
+        width: 648px;
+        height: 510px;
+    }
+
+    .big_card_date {
+        margin-top: 54px;
+
+        width: 130px;
+        color: #57B8FF;
+        font-family: Orbitron;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .big_card_text {
+        margin-top: 28px;
+        width: 607px;
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 46px;
+        text-transform: capitalize;
+    }
+}
+
+@media (max-width:1439px) {
+    .articles_section {
+        gap: 64px;
+        margin: 70px auto 83px auto;
+        width: 685px;
+        height: 1707px;
+    }
+
+    .articles_info_container {
+        flex-direction: row;
+        height: 196px;
+        align-items: end;
+    }
+
+    .info_heading {
+        width: 652px;
+        height: 100%;
+    }
+
+    .info_h1 {
+        width: 541px;
+        font-size: 64px;
+        line-height: 74px;
+    }
+
+    .info_h1:nth-child(2) {
+        margin-top: 12.39px;
+    }
+
+    .info_btn {
+        width: 175px;
+        height: 70px;
+
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .articles_container {
+        flex-direction: column;
+        height: fit-content;
+        gap: 80px;
+    }
+
+    .article_big_card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 648px;
+    }
+
+    .big_card_img {
+        width: 648px;
+        height: 510px;
+    }
+
+    .big_card_date {
+        margin-top: 54px;
+
+        width: 130px;
+        color: #57B8FF;
+        font-family: Orbitron;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .big_card_text {
+        margin-top: 28px;
+        width: 607px;
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 46px;
+        text-transform: capitalize;
+    }
+
+    .small_cards_container {
+        gap: 13px;
+    }
+}
+
+@media (max-width:767px) {
+    .articles_section {
+        gap: 45px;
+        margin: 40px auto 60px auto;
+        width: 335px;
+        height: fit-content;
+    }
+
+    .articles_info_container {
+        flex-direction: column;
+        height: 226px;
+        align-items: end;
+        gap: 27px;
+    }
+
+    .info_heading {
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .info_h1 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .info_h1:nth-child(2) {
+        margin-top: 12.39px;
+    }
+
+    .info_btn {
+        width: 175px;
+        height: 70px;
+
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .articles_container {
+        flex-direction: column;
+        height: fit-content;
+        gap: 80px;
+    }
+
+    .article_big_card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 335px;
+        gap: 15px;
+    }
+
+    .big_card_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .big_card_date {
+        width: 130px;
+        color: #57B8FF;
+        font-family: Orbitron;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .big_card_text {
+        width: 335px;
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        text-transform: capitalize;
+    }
+
+    .small_cards_container {
+        gap: 30px;
+    }
+}
+
 .articles_section {
     display: flex;
     flex-direction: column;
-    gap: 64px;
-    margin: 130px auto;
-    width: 1320px;
-    height: 962px;
 }
 
 .articles_info_container {
     display: flex;
-    flex-direction: row;
-    gap: 493px;
     width: 100%;
-    height: 196px;
-    align-items: end;
 }
 
 .info_heading {
     display: flex;
     flex-direction: column;
-    width: 652px;
-    height: 100%;
 }
 
 .info_h1 {
-    width: 541px;
     color: #FFF;
     font-family: Orbitron;
-    font-size: 64px;
     font-style: normal;
     font-weight: 400;
-    line-height: 74px;
     text-transform: capitalize;
 
     margin: 0;
 }
 
-.info_h1:nth-child(2) {
-    margin-top: 12.39px;
-}
-
 .info_btn {
     cursor: pointer;
 
-    width: 175px;
-    height: 70px;
     background: #57B8FF;
     border: none;
     appearance: none;
 
     color: #FFF;
     font-family: Orbitron;
-    font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
-    /* 164.706% */
     text-transform: capitalize;
 }
 
 .articles_container {
     display: flex;
-    flex-direction: row;
     width: 100%;
-    height: 702px;
 }
 
-.article_big_card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 648px;
-}
 
-.big_card_img {
-    width: 648px;
-    height: 510px;
-}
-
-.big_card_date {
-    margin-top: 54px;
-
-    width: 130px;
-    color: #57B8FF;
-    font-family: Orbitron;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-}
-
-.big_card_text {
-    margin-top: 28px;
-    width: 607px;
-    color: #FFF;
-    font-family: Orbitron;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 46px;
-    text-transform: capitalize;
-}
 
 .small_cards_container {
     display: flex;

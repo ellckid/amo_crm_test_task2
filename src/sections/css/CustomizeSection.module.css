@@ -1,87 +1,234 @@
+@media (min-width:1440px) {
+    .custom_section {
+        height: 700px;
+    }
+
+    .custom_left_img {
+        position: absolute;
+        width: 596px;
+        height: 695px;
+        top: 0;
+        left: 60px;
+    }
+
+    .custom_section_content {
+        width: 596px;
+        height: 529.421px;
+        right: 60px;
+        top: 82.87px;
+
+    }
+
+    .content_h1 {
+        margin: 11.7px 0 0 0;
+
+        width: 566px;
+        font-size: 64px;
+        line-height: 74px;
+    }
+
+    .content_h1:nth-child(3) {
+        margin: 0;
+        width: 544px;
+        font-size: 63px;
+    }
+
+    .content_h3 {
+        margin-top: 38px;
+
+        width: 561px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .content_img_container {
+        gap: 8.5px;
+        margin-top: 54px;
+    }
+
+    .content_img_cover {
+
+        width: 196px;
+        height: 125px;
+        border-radius: 20px;
+    }
+
+    .content_img {
+        position: absolute;
+        width: 174px;
+        height: 103px;
+    }
+}
+
+@media (max-width:1439px) {
+    .custom_section {
+        height: 700px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom_left_img {
+        display: none;
+    }
+
+    .custom_section_content {
+        display: flex;
+        flex-direction: column;
+        height: 529.421px;
+        top: 85px;
+    }
+
+    .content_h1 {
+        margin: 11.7px 0 0 0;
+
+        width: 566px;
+        font-size: 64px;
+        line-height: 74px;
+    }
+
+    .content_h1:nth-child(3) {
+        margin: 0;
+        width: 544px;
+        font-size: 63px;
+    }
+
+    .content_h3 {
+        margin-top: 38px;
+
+        width: 561px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .content_img_container {
+        gap: 8.5px;
+        margin-top: 54px;
+    }
+
+    .content_img_cover {
+
+        width: 196px;
+        height: 125px;
+        border-radius: 20px;
+    }
+
+    .content_img {
+        position: absolute;
+        width: 174px;
+        height: 103px;
+    }
+}
+
+@media (max-width:767px) {
+    .custom_section {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom_left_img {
+        display: none;
+    }
+
+    .custom_section_content {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        top: 45px;
+        width: 335px;
+        gap: 20px;
+    }
+
+    .content_h1 {
+        margin: 11.7px 0 0 0;
+
+        width: 335px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .content_h1:nth-child(3) {
+        margin: 0;
+        width: 335px;
+        font-size: 32px;
+    }
+
+    .content_h3 {
+        margin-top: 20px;
+
+        width: 335px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .content_img_container {
+        gap: 4.5px;
+        margin-top: 10px;
+    }
+
+    .content_img_cover {
+
+        width: 110px;
+        height: 90px;
+        border-radius: 20px;
+    }
+
+    .content_img_cover:hover {
+        transform: scale(1.05);
+    }
+
+    .content_img {
+        border-radius: 20px;
+        position: absolute;
+        width: 170px;
+        height: auto;
+    }
+
+
+}
+
 .custom_section {
     width: 100%;
-    height: 695.188px;
     background-color: #2A313C;
     position: relative;
 }
 
-.custom_left_img {
-    position: absolute;
-    width: 596px;
-    height: 695px;
-    top: 0;
-    left: 60px;
-}
-
 .custom_section_content {
     position: absolute;
-    width: 596px;
-    height: 529.421px;
-    right: 60px;
-    top: 82.87px;
-
 }
 
-
-
 .content_h1 {
-    margin: 11.7px 0 0 0;
-
-    width: 566px;
     color: #FFF;
     font-family: Orbitron;
-    font-size: 64px;
     font-style: normal;
     font-weight: 400;
-    line-height: 74px;
     text-transform: capitalize;
 }
 
-.content_h1:nth-child(3) {
-    margin: 0;
-    width: 544px;
-    font-size: 63px;
-}
-
 .content_h3 {
-    margin-top: 38px;
-
-    width: 561px;
     color: rgba(223, 223, 223, 0.80);
     font-family: Orbitron;
-    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
 }
 
 .content_img_container {
     display: flex;
     flex-direction: row;
-    gap: 8.5px;
-    margin-top: 54px;
 }
 
 .content_img_cover {
     cursor: pointer;
 
     position: relative;
-    width: 196px;
-    height: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
     background-color: transparent;
     transition: all 0.1s linear;
+    overflow: hidden;
 }
 
 .content_img_cover:hover {
     background-color: #3B3D46;
-}
-
-.content_img {
-    position: absolute;
-    width: 174px;
-    height: 103px;
 }

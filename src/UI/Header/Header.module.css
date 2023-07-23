@@ -164,7 +164,7 @@
 
     .header {
         align-items: center;
-        margin: 20px 40px 0 40px;
+        margin: 20px 20px 0 20px;
         width: 100%;
         height: fit-content;
         position: relative;
@@ -173,7 +173,7 @@
 
     .header_open {
         margin: 0;
-        padding: 20px 40px 0 40px;
+        padding: 20px 20px 0 20px;
         height: 370px;
         align-items: flex-start;
         background-color: #2A313C;
@@ -191,7 +191,7 @@
         width: fit-content;
         top: 90px;
         left: 0;
-        padding: 0 0 0 94px;
+        padding: 0 0 0 74px;
         gap: 12px;
     }
 
@@ -240,7 +240,7 @@
         width: fit-content;
         left: 0;
         bottom: 30px;
-        padding: 0 0 0 94px;
+        padding: 0 0 0 74px;
 
     }
 

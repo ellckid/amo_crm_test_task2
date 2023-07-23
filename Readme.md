@@ -25,6 +25,6 @@ https://www.figma.com/file/a3i4I1csvRc2rSCUjh4XpK/Untitled?type=design&node-id=0
 
 ![768px](/screenshots/768p.png)
 
-![375px](/screenshots/375p.png)
+![375px](/screenshots/375px.png)
 
-![iPhone тест](/screenshots/iphone.png)
+![iPhone тест](/screenshots/iphone.jpg)
